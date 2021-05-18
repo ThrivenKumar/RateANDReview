@@ -1,0 +1,76 @@
+.topcontainer {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(236, 236, 236);
+}
+.containerheader {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(40px + 1vw);
+}
+.containerheader h1 {
+  font-size: calc(25px + 1vw);
+}
+.nameandicon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+}
+.icon {
+  padding-left: 20px;
+  height: calc(20px + 1vw);
+  width: calc(20px + 1vw);
+}
+.details {
+  display: block;
+  align-items: center;
+  height: calc(200px);
+  padding-left: 20px;
+}
+.placedistance {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: calc(200px + 3vw);
+}
+.placedistance p {
+  font-size: calc(10px + 1vw);
+}
+.walkingPNG {
+  height: calc(10px + 1vw);
+  width: calc(10px + 1vw);
+}
+.placerating {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: calc(275px + 3vw);
+}
+.placerating p {
+  font-size: calc(10px + 1vw);
+}
+.userimage {
+  border-radius: 10px;
+}
+.photos {
+  display: grid;
+  align-items: center;
+}
+.googlemapslogo {
+  height: calc(80px + 1vw);
+  width: calc(120px + 1.5vw);
+}
+.closePNG {
+  height: calc(15px + 1vw);
+  width: calc(15px + 1vw);
+}
